@@ -1,0 +1,4 @@
+language: swift
+xcode_project: CollectionViewPagination/CollectionViewPagination.xcodeproj
+xcode_scheme: CollectionViewPagination
+xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone XS
