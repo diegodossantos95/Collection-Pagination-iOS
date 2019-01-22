@@ -10,11 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Outlet to collection view, used to have access to custom layout
     @IBOutlet weak var collectionView: UICollectionView!
 
+    // Reference to collectionview's layout
     private var layout: CustomPaginationLayout {
         return collectionView.collectionViewLayout as! CustomPaginationLayout
     }
+
+    // Number of items on each section and number of sections
     private let itemsInSection = 5
     private let sections = 4
 
